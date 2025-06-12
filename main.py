@@ -123,10 +123,12 @@ Homo_sapiens = ('6. Человек разумный (Homo_sapiens)\n'
                 'свидетельствует их развитый подбородочный выступ), умели изготавливать\n'
                 'одежду и более «продвинутые» орудия труда, а в свободное время\n'
                 'развлекались наскальной живописью и даже мастерили украшения.')
-name = {'1': Dryopithecus, '2': Ardipitek, '3': Australopithecus,
-        '4': Homo_habilis, '5': Homo_erectus, '6': Homo_sapiens}
+# name = {'1': Dryopithecus, '2': Ardipitek, '3': Australopithecus,
+#         '4': Homo_habilis, '5': Homo_erectus, '6': Homo_sapiens}
+#
+# print(Dryopithecus[:12], Ardipitek[:12], Australopithecus[:16], Homo_habilis[:32],
+#       Homo_erectus[:38], Homo_sapiens[:34], sep=' => ')
+# etapas = input('Введите номер одного из этапов развития человека: ')
+# print(name[etapas])
 
-print(Dryopithecus[:12], Ardipitek[:12], Australopithecus[:16], Homo_habilis[:32],
-      Homo_erectus[:38], Homo_sapiens[:34], sep=' => ')
-etapas = input('Введите номер одного из этапов развития человека: ')
-print(name[etapas])
+

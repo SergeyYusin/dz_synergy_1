@@ -29,3 +29,4 @@
 # while len(tmp) > 1000:
 #     tmp = input("Введите строку не длинее 1000 символов: ")
 # print(' '.join(tmp.split()))
+
